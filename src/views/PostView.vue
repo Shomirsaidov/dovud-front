@@ -108,7 +108,7 @@ export default {
       this.response = null;
 
       // Fire-and-forget: отправляем и не ждём ответа
-      axios.post('http://localhost:3000/upload-and-publish', formData, {
+      axios.post(`${process.env.VUE_APP_API_URL}/upload-and-publish`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         },
