@@ -1,3 +1,4 @@
+<template>
 <div class="p-6 max-w-3xl mx-auto bg-white">
     <h1 class="text-2xl text-start font-bold mb-6">Параметры публикаций у объявлений (постов)</h1>
 
@@ -52,10 +53,9 @@
       </div>
     </div>
   </div>
+</template>
 
-
-
-  <script>
+<script>
 import axios from 'axios';
 
 export default {
