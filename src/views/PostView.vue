@@ -1,4 +1,4 @@
-<!-- <div class="p-6 max-w-3xl mx-auto bg-white">
+<div class="p-6 max-w-3xl mx-auto bg-white">
     <h1 class="text-2xl text-start font-bold mb-6">Параметры публикаций у объявлений (постов)</h1>
 
     <form @submit.prevent="handleSubmit" class="space-y-4 text-[#62560E]">
@@ -51,7 +51,7 @@
         <p v-else class="text-red-600">❌ Ошибка: {{ result.error }}</p>
       </div>
     </div>
-  </div> -->
+  </div>
 
 
 
